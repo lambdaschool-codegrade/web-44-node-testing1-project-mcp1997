@@ -8,7 +8,14 @@
  */
 function trimProperties(obj) {
   // ✨ implement
+  return Object.entries(obj).reduce(([key, value]) => {
+    
+  })
 }
+
+const myObj = { a: 'foo   ', b: 'bar    ' }
+
+console.log(trimProperties(myObj))
 
 /**
  * [Exercise 2] trimPropertiesMutation trims in place the properties of an object
